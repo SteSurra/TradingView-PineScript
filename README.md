@@ -2,7 +2,7 @@
 
 # Bullrun
 
-![oE11gc2I](https://user-images.githubusercontent.com/57445485/124765006-daad8e00-df35-11eb-9a86-f06442ed9eb0.png)
+![oE11gc2I](https://user-images.githubusercontent.com/57445485/124765222-0c265980-df36-11eb-830a-dd89c588d6a4.png)
 
 Lo strumento che andiamo a vedere non è buono per operare sui mercati, ma serve solo a capire in che fase del mercato ci troviamo.
 
