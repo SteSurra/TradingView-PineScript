@@ -31,7 +31,7 @@ La media a 50 e 200 periodi furano scelti come indicatori perché nei mercati cl
 Dove 22 è il mese tipo dei mercati tradizionali che non considera il sabato e la domenica e 3 è il trimestre, cioè 3 mesi.
 200 è il 75% di un anno.
 
-Criptovalute
+<ins>Criptovalute</ins>
 
 ![g0lN2RyY](https://user-images.githubusercontent.com/57445485/124765630-717a4a80-df36-11eb-9be2-5023b0fc0456.png)
 
