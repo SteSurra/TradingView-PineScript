@@ -39,13 +39,11 @@ Secondo il ragionamento precedente per Bitcoin e le altre cripto-valute sarebbe 
 
 Cos'è il multiplo di Mayer?
 
-Il Mayer Multiple viene utilizzato negli investimenti per determinare se un asset è iper-comprato (rosso), a prezzi equi(giallo) o sottovalutato (verdi)
-Il Mayer Multiple viene calcolato prendendo il prezzo dell’asset e dividendolo per il valore medio mobile di 200 giorni.
+Il Mayer Multiple viene utilizzato negli investimenti per determinare se un asset è iper-comprato (colore rosso), a prezzi equi (colore giallo) o sottovalutato (colore verde). L'indicatore viene calcolato prendendo il prezzo dell’asset e dividendolo per il valore della media mobile a 200 giorni.
 
-Esempio se il prezzo di Bitcoin  è $10,890 e la media mobile a 200 giorni è a $9.287, allora
-10.890/9.287 = 1.1726
+Esempio se il prezzo di Bitcoin  è $10,890 e la media mobile a 200 giorni è a $9.287, allora 10.890/9.287 = 1.1726
 
-L’idea quindi è quella di accumulare durante le fasi di iper-venduto e di vendere quando si è in iper-comprato, evitando quindi di accumulare durante le fase di eccesso a rialzo.
+L’idea quindi è quella di accumulare durante le fasi di iper-venduto e di vendere durante le fasi di iper-comprato; evitando quindi di accumulare durante le fase di eccesso a rialzo.
 
 Difetti
 Il multiplo di Mayer non tiene conto del timing nel breve periodo perché misura sostanzialmente la distanza tra la media mobile e i prezzi dell’asset, segue che l’indicatore fa accumulare durante una fare di ribasso del mercato trend. Quindi all’inizio avremo segnali di “buy”, ma il mercato continuerà a scendere perché siamo contro trend.
