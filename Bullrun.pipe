@@ -1,0 +1,14 @@
+//@version=4
+study(title="Death_Cross", shorttitle="DeathCross", overlay=true, resolution="")
+
+len = input(68, minval=1, title="Length")
+src = input(close, title="Source")
+offset = input(title="Offset", type=input.integer, defval=0, minval=-500, maxval=500)
+out = sma(src, len)
+plot(out, color=color.blue, title="MA_68", offset=offset)
+
+len1 = input(274, minval=1, title="Length")
+src1 = input(close, title="Source")
+offset1 = input(title="Offset", type=input.integer, defval=0, minval=-500, maxval=500)
+out1 = sma(src1, len1)
+plot(out1, color=color.red, title="MA_274", offset=offset)
