@@ -35,6 +35,8 @@ Secondo il ragionamento precedente per Bitcoin e le altre cripto-valute sarebbe 
 
 # Multiplo di Mayer
 
+![iY6H24EY](https://user-images.githubusercontent.com/57445485/124763548-60303e80-df34-11eb-8a92-4b64ed81df4b.png)
+
 Cos'è il multiplo di Mayer?
 
 Il Mayer Multiple viene utilizzato negli investimenti per determinare se un asset è iper-comprato (rosso), a prezzi equi(giallo) o sottovalutato (verdi)
