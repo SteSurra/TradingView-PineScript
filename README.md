@@ -16,6 +16,8 @@ Se la media veloce a 26 periodi incrocia a rialzo la media lenta a 52 periodi qu
 
 # Death Cross
 
+![GjEFMjLs](https://user-images.githubusercontent.com/57445485/124765512-53144f00-df36-11eb-8cf8-7d8576a352db.png)
+
 Un death cross, detto anche incrocio della morte, è l'opposto di un golden cross. Si tratta di un pattern grafico in cui una MA a breve termine incrocia verso il basso una MA a lungo termine. Per esempio, quando la MA a 50 giorni incrocia verso il basso la MA a 200 giorni. Perciò, un death cross è solitamente considerato un segnale bearish.
 In genere, un death cross avviene in tre fasi:
 1) La MA a breve termine si trova sopra la MA a lungo termine durante un trend al rialzo.
@@ -30,6 +32,8 @@ Dove 22 è il mese tipo dei mercati tradizionali che non considera il sabato e l
 200 è il 75% di un anno.
 
 Criptovalute
+
+![g0lN2RyY](https://user-images.githubusercontent.com/57445485/124765630-717a4a80-df36-11eb-9be2-5023b0fc0456.png)
 
 Secondo il ragionamento precedente per Bitcoin e le altre cripto-valute sarebbe allora errato considerare la media a 50 e 200 periodi. Servirebbero Infatti delle medie più lunghe dato che il mercato delle cripto-valute è aperto 24 ore su 24. Considerando sempre il 75% di un trimestre e il 75% di un anno otteniamo: MA1: 68 giorni , MA2: 274 giorni.
 
