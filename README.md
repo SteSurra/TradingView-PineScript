@@ -22,9 +22,9 @@ Death cross is the opposite of a golden cross. It is a chart pattern where a sho
 Therefore, a death cross is usually considered a bearish signal.
 
 Typically, a death cross occurs in three stages:
-The short-term MA sits above the long-term MA during an uptrend.
-The trend reverses, and the short-term MA crosses down the long-term MA.
-A downtrend begins where the short-term MA stays below the long-term MA.
+1. The short-term MA sits above the long-term MA during an uptrend.
+2. The trend reverses, and the short-term MA crosses down the long-term MA.
+3. A downtrend begins where the short-term MA stays below the long-term MA.
 
 In classic markets, the death cross is considered by the institutions as a very negative signal for which many positions are closed. The reason is that the death cross marks the transition to a medium / long-term bearish trend.
 
