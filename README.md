@@ -43,17 +43,15 @@ According to what was said before, for Bitcoin and other cryptocurrencies it wou
 
 ![iY6H24EY](https://user-images.githubusercontent.com/57445485/124763548-60303e80-df34-11eb-8a92-4b64ed81df4b.png)
 
-Cos'è il multiplo di Mayer?
+The Mayer Multiple is used in investments to determine whether an asset is overbought (red), fairly priced (yellow) or undervalued (green). The indicator is calculated by taking the price of the asset and dividing it by the value of the 200-day moving average.
 
-Il Mayer Multiple viene utilizzato negli investimenti per determinare se un asset è iper-comprato (colore rosso), a prezzi equi (colore giallo) o sottovalutato (colore verde). L'indicatore viene calcolato prendendo il prezzo dell’asset e dividendolo per il valore della media mobile a 200 giorni.
+Example if the price of Bitcoin is $ 10,890 and the 200-day moving average is at $ 9,287, then 10,890 / 9,287 = 1.1726
 
-Esempio se il prezzo di Bitcoin  è $10,890 e la media mobile a 200 giorni è a $9.287, allora 10.890/9.287 = 1.1726
+The idea, therefore, is to accumulate during the over-sold phases and to sell during the over-bought phases with the aim of avoiding accumulating during the upward excess phase.
 
-L’idea quindi è quella di accumulare durante le fasi di iper-venduto e di vendere durante le fasi di iper-comprato; evitando quindi di accumulare durante le fase di eccesso a rialzo.
+<ins>Defects</ins>
 
-Difetti
-Il multiplo di Mayer non tiene conto del timing nel breve periodo perché misura sostanzialmente la distanza tra la media mobile e i prezzi dell’asset, segue che l’indicatore fa accumulare durante una fare di ribasso del mercato trend. Quindi all’inizio avremo segnali di “buy”, ma il mercato continuerà a scendere perché siamo contro trend.
-Per cercare di contrastare questo problema insito all’interno di questo indicatore, un’idea può essere quello che nell’ottica di un piano di accumulo le posizioni non siano tutte equidimensionali: sarebbe conveniente che le prime posizioni abbiano una dimensione inferiore rispetto alle successive. 
-Modifiche
-Considerando che bitcoin è aperto 24 ore su 24 avrebbe senso considerare una media a 274 periodi anziché una a 200 periodi (vedi paragrafo “DeathCross”).
+The Mayer multiple does not take into account the timing in the short term because it basically measures the distance between the price of the asset and the moving average. It follows that the indicator provides "buy" signals during a market decline.
+With a view to an accumulation plan to counter this problem, it could be possible to enter the market with non-equidimensional positions: it would be convenient for the first positions to have a smaller size than the following ones.
+Considering that the crypto currency market is open 24 hours a day, it would make sense to consider an average at 274 periods instead of one at 200 periods (see paragraph “DeathCross”).
 
