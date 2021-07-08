@@ -1,18 +1,18 @@
-# PineScritp
+# PineScript
 
-# Bullrun
+# Bull run
 
 ![oE11gc2I](https://user-images.githubusercontent.com/57445485/124765222-0c265980-df36-11eb-830a-dd89c588d6a4.png)
 
-Lo strumento che andiamo a vedere non è buono per operare sui mercati, ma serve solo a capire in che fase del mercato ci troviamo.
+This indicator is not good for trading on the markets, but it helps to understand what phase of the market we are in.
 
-Vediamo di seguito un esempio che mostra Bitcoin compiere dal 2015 al 2017 tre cicli annuali rialzisti e un ciclo annuale ribassista. Solitamente il mercato delle crypto in una Bullrun compie 3 cicli annuali rialzisti e un ciclo annuale ribassista solitamente più corto. In questo caso infatti il ciclo più corto dura 308 giorni.
+The snapshot above is an example showing Bitcoin going through three bullish annual cycles and one bearish annual cycle from 2015 to 2017. Usually the crypto market in a bull run has 3 bullish annual cycles and a usually shorter bearish annual cycle. In this case, in fact, the shortest cycle lasts 308 days.
 
-Le medie mobile che andiamo ad utilizzate per analizzare il mercato sono quelle a 52 e 26 periodi. Il timeframe che utilizziamo è quello weekly e per tali ragione 52 periodi significa proprio 52 settimane, cioè 1 anno, mentre 26 periodi significa 180 giorni, cioè ½ anno.
+The moving averages that we are going to use to analyze the market are those at 52 and 26 periods. The weekly timeframe indicates 52 periods which means 52 weeks, that is 1 year, while 26 periods means 180 days, that is half a year.
 
-Non ha senso utilizzare queste medie in altri timeframe.
+It makes no sense to use these averages in other time frames.
 
-Se la media veloce a 26 periodi incrocia a rialzo la media lenta a 52 periodi questo potrebbe sancire l’inizio della bullrun; viceversa invece la bullrun potrebbe essere terminata.
+If the fast 26-period average crosses the slow 52-period average upwards, this could mark the start of the bull run; vice versa the bullrun could be terminated.
 
 # Death Cross
 
