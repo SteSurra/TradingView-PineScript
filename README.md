@@ -18,24 +18,26 @@ If the fast 26-period average crosses the slow 52-period average upwards, this c
 
 ![GjEFMjLs](https://user-images.githubusercontent.com/57445485/124765512-53144f00-df36-11eb-8cf8-7d8576a352db.png)
 
-Un death cross, detto anche incrocio della morte, è l'opposto di un golden cross. Si tratta di un pattern grafico in cui una MA a breve termine incrocia verso il basso una MA a lungo termine. Per esempio, quando la MA a 50 giorni incrocia verso il basso la MA a 200 giorni. Perciò, un death cross è solitamente considerato un segnale bearish.
-In genere, un death cross avviene in tre fasi:
-1) La MA a breve termine si trova sopra la MA a lungo termine durante un trend al rialzo.
-2) Il trend si inverte, e la MA a breve termine incrocia verso il basso la MA a lungo termine.
-3) Inizia un trend al ribasso in cui la MA a breve termine resta al di sotto della MA a lungo termine.
+Death cross is the opposite of a golden cross. It is a chart pattern where a short-term MA crosses bearish with a long-term MA. For example, when the 50-day MA crosses down the 200-day MA.
+Therefore, a death cross is usually considered a bearish signal.
 
-Nei mercati classici un death cross era valutato dagli istituzionali come un segnale molto negativo per cui venivano chiuse molte posizioni. Il motivo è che il death cross segna il passaggio verso un trend di medio/lungo periodo ribassista.
+Typically, a death cross occurs in three stages:
+The short-term MA sits above the long-term MA during an uptrend.
+The trend reverses, and the short-term MA crosses down the long-term MA.
+A downtrend begins where the short-term MA stays below the long-term MA.
 
-La media a 50 e 200 periodi furano scelti come indicatori perché nei mercati classici il week-end (sabato e domenica) non sono momenti di contrattazione. Segue che il mese classico dal punto di vista dei mercati hold è di 20 giorni circa, mentre un anno di 200 giorni. Per cui furono scelte come media veloce un paio di mesi, cioè 50 giorni e 200 giorni come media per l’annuale.
-50 è stato scelto perché è il 75% dei tre mesi del mercato tradizionale: 0.75(22*3)=49.5->50
-Dove 22 è il mese tipo dei mercati tradizionali che non considera il sabato e la domenica e 3 è il trimestre, cioè 3 mesi.
-200 è il 75% di un anno.
+In classic markets, the death cross is considered by the institutions as a very negative signal for which many positions are closed. The reason is that the death cross marks the transition to a medium / long-term bearish trend.
+
+In classic markets, weekends (Saturdays and Sundays) are not bargaining times. It follows that the classic month from the point of view of the hold markets is about 20 days, while a year is about 200 days.
+
+The 50-period average was chosen because it represents 75% of three months in the traditional market: 0.75 (22 * 3) = 49.5-> 50.
+22 is the typical month of traditional markets which does not consider Saturday and Sunday, while 3 is the quarter, ie 3 months. The 200-period average is 75% of a year.
 
 <ins>Criptovalute</ins>
 
 ![g0lN2RyY](https://user-images.githubusercontent.com/57445485/124765630-717a4a80-df36-11eb-9be2-5023b0fc0456.png)
 
-Secondo il ragionamento precedente per Bitcoin e le altre cripto-valute sarebbe allora errato considerare la media a 50 e 200 periodi. Servirebbero Infatti delle medie più lunghe dato che il mercato delle cripto-valute è aperto 24 ore su 24. Considerando sempre il 75% di un trimestre e il 75% di un anno otteniamo: MA1: 68 giorni , MA2: 274 giorni.
+According to what was said before, for Bitcoin and other cryptocurrencies it would be wrong to consider the average at 50 and 200 periods. In fact, longer averages would be needed since the crypto currency market is open 24 hours a day. Always considering 75% of a quarter and 75% of a year, we get: MA1: 68 days, MA2: 274 days.
 
 # Multiplo di Mayer
 
