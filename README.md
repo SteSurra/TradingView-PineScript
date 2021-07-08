@@ -33,13 +33,13 @@ In classic markets, weekends (Saturdays and Sundays) are not bargaining times. I
 The 50-period average was chosen because it represents 75% of three months in the traditional market: 0.75 (22 * 3) = 49.5-> 50.
 22 is the typical month of traditional markets which does not consider Saturday and Sunday, while 3 is the quarter, ie 3 months. The 200-period average is 75% of a year.
 
-<ins>cryptocurrencies</ins>
+<ins>Cryptocurrencies</ins>
 
 ![g0lN2RyY](https://user-images.githubusercontent.com/57445485/124765630-717a4a80-df36-11eb-9be2-5023b0fc0456.png)
 
 According to what was said before, for Bitcoin and other cryptocurrencies it would be wrong to consider the average at 50 and 200 periods. In fact, longer averages would be needed since the crypto currency market is open 24 hours a day. Always considering 75% of a quarter and 75% of a year, we get: MA1: 68 days, MA2: 274 days.
 
-# Multiplo di Mayer
+# Mayer Multiple
 
 ![iY6H24EY](https://user-images.githubusercontent.com/57445485/124763548-60303e80-df34-11eb-8a92-4b64ed81df4b.png)
 
