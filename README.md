@@ -33,7 +33,7 @@ In classic markets, weekends (Saturdays and Sundays) are not bargaining times. I
 The 50-period average was chosen because it represents 75% of three months in the traditional market: 0.75 (22 * 3) = 49.5-> 50.
 22 is the typical month of traditional markets which does not consider Saturday and Sunday, while 3 is the quarter, ie 3 months. The 200-period average is 75% of a year.
 
-<ins>Criptovalute</ins>
+<ins>cryptocurrencies</ins>
 
 ![g0lN2RyY](https://user-images.githubusercontent.com/57445485/124765630-717a4a80-df36-11eb-9be2-5023b0fc0456.png)
 
