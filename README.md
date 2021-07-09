@@ -55,3 +55,13 @@ The Mayer multiple does not take into account the timing in the short term becau
 With a view to an accumulation plan to counter this problem, it could be possible to enter the market with non-equidimensional positions: it would be convenient for the first positions to have a smaller size than the following ones.
 Considering that the crypto currency market is open 24 hours a day, it would make sense to consider an average at 274 periods instead of one at 200 periods (see paragraph “DeathCross”).
 
+# Ichimoku Cloud
+
+![xoTNBeTF](https://user-images.githubusercontent.com/57445485/125078783-2d688080-e0c3-11eb-8764-279c6e7c2165.png)
+
+The Ichimoku Cloud indicator has been modified compared to the basic version in order to display Ichimoku Cloud related to different time frames on the same timeframe. This makes it easier to identify resistance and intersection points.
+
+![mLTAEVCI](https://user-images.githubusercontent.com/57445485/125079141-8e905400-e0c3-11eb-8f14-038a8e5cdc5f.png)
+
+By checking the "Cross" option, it is also possible to display on the graph only the intersections between "leadLine1" and "leadLine2" always relative to different timeframes on a single timeframe.
+
