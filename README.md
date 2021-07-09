@@ -63,5 +63,5 @@ The Ichimoku Cloud indicator has been modified compared to the basic version in 
 
 ![mLTAEVCI](https://user-images.githubusercontent.com/57445485/125079141-8e905400-e0c3-11eb-8f14-038a8e5cdc5f.png)
 
-By checking the "Cross" option, it is also possible to display on the graph only the intersections between "leadLine1" and "leadLine2" always relative to different timeframes on a single timeframe.
+By checking the "Cross" option, it is also possible to display on the graph only the intersections between the two leadLines always relative to different timeframes on a single timeframe.
 
