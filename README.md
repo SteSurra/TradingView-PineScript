@@ -63,5 +63,5 @@ The Ichimoku Cloud indicator has been modified compared to the basic version in 
 
 ![QUyQt2bj](https://user-images.githubusercontent.com/57445485/125323473-1afa7b00-e33f-11eb-898d-de66acb97b35.png)
 
-By checking the "Cross" option, it is also possible to display on the graph only the intersections between the two leadLines always relative to different timeframes on a single timeframe.
+By checking the "Cross" option, it is also possible to display on the graph only the intersections between the two leadLines always relative to different timeframes on a single timeframe. The green lines indicate a bullish intersection, while the red lines indicate a bearish intersection.
 
