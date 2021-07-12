@@ -61,7 +61,7 @@ Considering that the crypto currency market is open 24 hours a day, it would mak
 
 The Ichimoku Cloud indicator has been modified compared to the basic version in order to display Ichimoku Cloud related to different time frames on the same timeframe. This makes it easier to identify resistance and intersection points.
 
-![mLTAEVCI](https://user-images.githubusercontent.com/57445485/125079141-8e905400-e0c3-11eb-8f14-038a8e5cdc5f.png)
+![OTJFqCZY](https://user-images.githubusercontent.com/57445485/125323095-b7704d80-e33e-11eb-8591-96f32d8b536d.png)
 
 By checking the "Cross" option, it is also possible to display on the graph only the intersections between "leadLine1" and "leadLine2" always relative to different timeframes on a single timeframe. Precisely green lines indicate a bullish intersection, red lines a bearish intersection.
 
