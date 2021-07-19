@@ -5,7 +5,7 @@ The Ichimoku Cloud is a tool that positioned on the chart provides information o
 This information is obtained through three components that make up the Ichimoku Cloud:
 1. <ins> historical component </ins>: it compares the current price action with the historical price: the historical component is defined with the name of "Chikou Span" which defines the so-called momentum of the price action, ie the trend. Through this component it is possible to identify support and resistance levels
 2. <ins> current component </ins>: it shows the current trend ie what is happening right now. Here we identify the so-called "Tenken sen" and "kijun sen" which are actually variations of simple moving averages.
-3. <ins> future component </ins>: the "Senkou A" and "Senkou B" define the so-called cloud which provides an indication of the strength and weakness of the market.
+3. <ins> future component </ins>: Senkou A and Senkou B define the so-called cloud which provides an indication of the strength and weakness of the market.
 They are often a good indicator for trailing stops.
 
 <ins> Advice </ins>
@@ -30,6 +30,12 @@ In this implementation the cloud makes a 56-day (multiple) projection into the f
 ![pWMH8yHN](https://user-images.githubusercontent.com/57445485/126188878-29142d21-b6bd-44a7-bda7-affe47fd5264.png)
 
 The cloud area is green when the Senkou A (green line) is above the Senkou B (red line), otherwise it is red.
+
+<h3> Supports and Resistors </h3>
+Senkou B identifies what could be resistance or support in the future. The longer (horizontal) the SenkouB, the greater the indication of support or resistance that the SenkouB itself provides. For this reason Senkou B is excellent for trailing stop.
+
+![fM3H7EWz](https://user-images.githubusercontent.com/57445485/126191763-4c00376f-8331-4a4a-a4c1-64b9840be2c8.png)
+
 
 
 The Ichimoku Cloud tool has been modified compared to the basic version in order to display Ichimoku Cloud related to different time frames on the same timeframe. This makes it easier to identify resistance and intersection points.
