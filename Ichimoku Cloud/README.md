@@ -45,8 +45,7 @@ The Ichimoku Cloud tool has been modified compared to the basic version in order
 
 <h3> Crossings </h3>
 
-When Senkou A and Senkou B cross this indicates that the market may change its direction in one direction or another.
-Usually Senkou A crosses Senkou B the crossing is bullish, otherwise it is bearish.
+When Senkou A and Senkou B cross this indicates that the market may change its direction in one direction or another; usually Senkou A crosses Senkou B the crossing is bullish, otherwise it is bearish.
 
 ![qexYafs8](https://user-images.githubusercontent.com/57445485/126193859-0dd51cd0-0470-4bbf-aa1b-d0a43d3f13ee.png)
 
