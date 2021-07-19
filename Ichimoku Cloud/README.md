@@ -32,6 +32,7 @@ In this implementation the cloud makes a 56-day (multiple) projection into the f
 The cloud area is green when the Senkou A (green line) is above the Senkou B (red line), otherwise it is red.
 
 <h3> Supports and Resistors </h3>
+
 Senkou B identifies what could be resistance or support in the future. The longer (horizontal) the SenkouB, the greater the indication of support or resistance that the SenkouB itself provides. For this reason Senkou B is excellent for trailing stop.
 
 ![fM3H7EWz](https://user-images.githubusercontent.com/57445485/126191763-4c00376f-8331-4a4a-a4c1-64b9840be2c8.png)
