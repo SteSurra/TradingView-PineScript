@@ -47,6 +47,8 @@ The Ichimoku Cloud tool has been modified compared to the basic version in order
 
 When Senkou A and Senkou B cross this indicates that the market may change its direction in one direction or another.
 
+![qexYafs8](https://user-images.githubusercontent.com/57445485/126193859-0dd51cd0-0470-4bbf-aa1b-d0a43d3f13ee.png)
+
 By checking the "Cross_X" option, it is also possible to display on the graph only the intersections between the two leadLines always relative to different timeframes on a single timeframe. The green lines indicate a bullish intersection, while the red lines indicate a bearish intersection.
 
 ![QUyQt2bj](https://user-images.githubusercontent.com/57445485/125323473-1afa7b00-e33f-11eb-898d-de66acb97b35.png)
