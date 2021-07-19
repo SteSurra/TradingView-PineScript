@@ -1,4 +1,3 @@
-
 //@version=4
 study(title="Death_Cross", shorttitle="DeathCross", overlay=true, resolution="")
 
