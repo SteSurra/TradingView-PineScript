@@ -2,7 +2,7 @@
 
 <H2> Overview </H2>
 
-The ichimoku cloud is a tool that positioned on the chart provides information on the trend, support and resistance levels and volatility "at a glance".
+The Ichimoku Cloud is a tool that positioned on the chart provides information on the trend, support and resistance levels and volatility "at a glance".
 
 This information is obtained through three components that make up the Ichimoku Cloud:
 1. <ins> historical component </ins>: it compares the current price action with the historical price: the historical component is defined with the name of "Chikou Span" which defines the so-called momentum of the price action, ie the trend. Through this component it is possible to identify support and resistance levels
@@ -13,7 +13,7 @@ They are often a good indicator for trailing stops.
 <H3> Advice </H3>
 
 - Use all three components together
-- Use the ichimoku Cloud together with candlestick patterns
+- Use the Ichimoku Cloud together with candlestick patterns
 
 ![R0GM1Nqp](https://user-images.githubusercontent.com/57445485/125323748-6f9df600-e33f-11eb-8cc1-def4d79fc51a.png)
 
