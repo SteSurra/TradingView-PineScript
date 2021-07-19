@@ -11,8 +11,8 @@ This information is obtained through three components that make up the Ichimoku 
 They are often a good indicator for trailing stops.
 
 Advice
-1) Use all three components together
-2) Use the ichimoku Cloud together with candlestick patterns
+* Use all three components together
+* Use the ichimoku Cloud together with candlestick patterns
 
 ![R0GM1Nqp](https://user-images.githubusercontent.com/57445485/125323748-6f9df600-e33f-11eb-8cc1-def4d79fc51a.png)
 
