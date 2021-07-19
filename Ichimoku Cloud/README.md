@@ -19,7 +19,8 @@ They are often a good indicator for trailing stops.
 
 ![etv6ENPQ](https://user-images.githubusercontent.com/57445485/126187865-27c140b4-5515-4d46-85b9-ec0bbfa2a226.png)
 ![jOw9Ki9r](https://user-images.githubusercontent.com/57445485/126187741-984d36ea-1239-4b47-8496-54ded1e696a5.png)
-![etv6ENPQ](https://user-images.githubusercontent.com/57445485/126188802-2bd95cc3-2a1f-4926-a962-4c4bc90111cc.png)
+![pWMH8yHN](https://user-images.githubusercontent.com/57445485/126188878-29142d21-b6bd-44a7-bda7-affe47fd5264.png)
+
 
 In this implementation, the cloud makes a 56-day (multiple) projection into the future:
 1. if the price action (the chart) is above the Cloud the trend is bullish
