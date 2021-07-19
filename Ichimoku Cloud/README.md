@@ -37,12 +37,6 @@ Senkou B identifies what could be resistance or support in the future. The longe
 
 ![fM3H7EWz](https://user-images.githubusercontent.com/57445485/126191763-4c00376f-8331-4a4a-a4c1-64b9840be2c8.png)
 
-
-
-The Ichimoku Cloud tool has been modified compared to the basic version in order to display Ichimoku Cloud related to different time frames on the same timeframe. This makes it easier to identify resistance and intersection points.
-
-![R0GM1Nqp](https://user-images.githubusercontent.com/57445485/125323748-6f9df600-e33f-11eb-8cc1-def4d79fc51a.png)
-
 <h3> Crossings </h3>
 
 When Senkou A and Senkou B cross this indicates that the market may change its direction in one direction or another; usually Senkou A crosses Senkou B the crossing is bullish, otherwise it is bearish.
@@ -90,6 +84,12 @@ Up | Flat | +
 ![d45q9M6Z](https://user-images.githubusercontent.com/57445485/126214021-96eabb37-1fcf-4590-948c-a706f1784bff.png)
 
 ![vs46rj5x](https://user-images.githubusercontent.com/57445485/126214272-7caeaae4-a016-48cf-b795-ad64a0f10981.png)
+
+<H3> Updates <H3>
+
+The Ichimoku Cloud tool has been modified compared to the basic version in order to display Ichimoku Cloud related to different time frames on the same timeframe. This makes it easier to identify resistance and intersection points.
+
+![R0GM1Nqp](https://user-images.githubusercontent.com/57445485/125323748-6f9df600-e33f-11eb-8cc1-def4d79fc51a.png)
 
 
 
