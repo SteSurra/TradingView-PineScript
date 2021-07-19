@@ -1,0 +1,469 @@
+//@version=4
+study(title="Ichimoku Cloud", shorttitle="Ichimoku Cloud", overlay=true)
+
+period = timeframe.period
+
+//initialization variables
+d=1
+h=1
+condition_color=0
+
+//examples
+//10 30 60 30
+//20 60 120 60
+//21 56 112 1
+//42 112 224 112
+//256 672 1344 672
+//504 1344 2688 1344
+
+conversionPeriods = input(21, minval=1, title="Conversion Line Periods"),
+basePeriods = input(56, minval=1, title="Base Line Periods")
+laggingSpan2Periods = input(112, minval=1, title="Lagging Span 2 Periods"),
+displacement = input(56, minval=1, title="Displacement")
+
+donchian(len) => avg(lowest(len), highest(len))
+conversionLine = donchian(conversionPeriods)
+baseLine = donchian(basePeriods)
+leadLine1 = avg(conversionLine, baseLine)
+leadLine2 = donchian(laggingSpan2Periods)
+
+//D
+komu_input_D = input(false, title="komu_D")
+conversionLine_input_D = input(false, title="conversionLine_D")
+baseLine_input_D = input(false, title="baseLine_D")
+Cross_D = input(true, title="Cross_D")
+
+condition_color := (cross(security(syminfo.tickerid,"D", leadLine1 ),security(syminfo.tickerid,"D", leadLine2 )) ? 1 : 0)
+
+leadLine1_D_2 = (komu_input_D ? security(syminfo.tickerid,"D", leadLine1 ) : na)
+leadLine2_D_2 = (komu_input_D ? security(syminfo.tickerid,"D", leadLine2 ) : na)
+leadLine1_D_tmp = security(syminfo.tickerid,"D", leadLine1)
+leadLine2_D_tmp = security(syminfo.tickerid,"D", leadLine2)
+
+conversionLine_D = (conversionLine_input_D ? security(syminfo.tickerid,"D", conversionLine ) : na)
+baseLine_D = (baseLine_input_D ? security(syminfo.tickerid,"D", baseLine ) : na)
+
+if (period == "60")
+    d:=1 //number of hours in 60 minutes
+    h:=24 //number of hours in D
+    
+if (period == "120")
+    d:=2
+    h:=24
+    
+if (period == "240")
+    d:=4
+    h:=24
+
+if (period == "D")
+    d:=1
+    h:=1
+
+if (period == "2D")
+    d:=24*2
+    h:=24
+
+if (period == "3D")
+    d:=24*3
+    h:=24
+
+if (period == "4D")
+    d:=24*4
+    h:=24
+
+if (period == "W")
+    d:=24*7
+    h:=24
+
+if (period == "2W")
+    d:=24*17
+    h:=24
+
+p1 = plot(leadLine1_D_2, offset = (displacement - 1)*h/d, color=color.green, title="Lead 1 D")
+p2 = plot(leadLine2_D_2, offset = (displacement - 1)*h/d, color=color.red,  title="Lead 2 D")
+fill(p1, p2, color = leadLine1_D_2 > leadLine2_D_2 ? color.green : color.red)
+plot(conversionLine_D, color=#0496ff, title="Conversion Line D")
+plot(baseLine_D, color=#991515, title="Base Line D")
+
+condition_color_2 = (leadLine1_D_tmp > leadLine2_D_tmp ? color.green : color.red)
+clr = (Cross_D ? (condition_color ? condition_color_2 : na):na)
+bgcolor(color=clr, offset = (displacement - 1)*h/d, transp=0)
+
+
+//plot(conversionLine, color=#0496ff, title="Conversion Line")
+//plot(baseLine, color=#991515, title="Base Line")
+//plot(close, offset = -displacement + 1, color=#459915, title="Lagging Span")
+
+//2D
+komu_input_2D = input(false, title="komu_2D")
+conversionLine_input_2D = input(false, title="conversionLine_2D")
+baseLine_input_2D = input(false, title="baseLine_2D")
+Cross_2D = input(true, title="Cross_2D")
+
+condition_color := (cross(security(syminfo.tickerid,"2D", leadLine1 ),security(syminfo.tickerid,"2D", leadLine2 )) ? 1 : 0)
+d:=1
+h:=1
+
+leadLine1_2D_2 = (komu_input_2D ? security(syminfo.tickerid,"2D", leadLine1 ) : na)
+leadLine2_2D_2 = (komu_input_2D ? security(syminfo.tickerid,"2D", leadLine2 ) : na)
+leadLine1_2D_tmp = security(syminfo.tickerid,"2D", leadLine1)
+leadLine2_2D_tmp = security(syminfo.tickerid,"2D", leadLine2)
+
+conversionLine_2D = (conversionLine_input_2D ? security(syminfo.tickerid,"2D", conversionLine ) : na)
+baseLine_2D = (baseLine_input_2D ? security(syminfo.tickerid,"2D", baseLine ) : na)
+
+if (period == "60")
+    d:=1 //number of hours in 60 minutes
+    h:=48 //number of hours in D
+    
+if (period == "120")
+    d:=2
+    h:=48
+    
+if (period == "240")
+    d:=4
+    h:=48
+
+if (period == "D")
+    d:=24
+    h:=48
+    
+if (period == "2D")
+    d:=1
+    h:=1
+
+if (period == "3D")
+    d:=72
+    h:=48
+
+if (period == "4D")
+    d:=24*4
+    h:=48
+
+if (period == "W")
+    d:=24*7
+    h:=48
+
+if (period == "2W")
+    d:=24*14
+    h:=48
+    
+p11 = plot(leadLine1_2D_2, offset = (displacement - 1)*h/d, color=color.green, title="Lead 1 2D")
+p21 = plot(leadLine2_2D_2, offset = (displacement - 1)*h/d, color=color.red,  title="Lead 2 2D")
+fill(p11, p21, color = leadLine1_2D_2 > leadLine2_2D_2 ? color.green : color.red)
+plot(conversionLine_2D, color=#0496ff, title="Conversion Line 2D")
+plot(baseLine_2D, color=#991515, title="Base Line 2D")
+
+condition_color_2D = (leadLine1_2D_tmp > leadLine2_2D_tmp ? color.green : color.red)
+clr0 = (Cross_2D ? (condition_color ? condition_color_2D : na):na)
+bgcolor(color=clr0, offset = (displacement - 1)*h/d, transp=0)
+
+
+//3D
+komu_input_3D = input(false, title="komu_3D")
+conversionLine_input_3D = input(false, title="conversionLine_3D")
+baseLine_input_3D = input(false, title="baseLine_3D")
+Cross_3D = input(true, title="Cross_3D")
+
+condition_color := (cross(security(syminfo.tickerid,"3D", leadLine1 ),security(syminfo.tickerid,"3D", leadLine2 )) ? 1 : 0)
+d:=1
+h:=1
+leadLine1_3D_2 = (komu_input_3D ? security(syminfo.tickerid,"3D", leadLine1 ) : na)
+leadLine2_3D_2 = (komu_input_3D ? security(syminfo.tickerid,"3D", leadLine2 ) : na)
+leadLine1_3D_tmp = security(syminfo.tickerid,"3D", leadLine1)
+leadLine2_3D_tmp = security(syminfo.tickerid,"3D", leadLine2)
+
+conversionLine_3D = (conversionLine_input_3D ? security(syminfo.tickerid,"3D", conversionLine ) : na)
+baseLine_3D = (baseLine_input_3D ? security(syminfo.tickerid,"3D", baseLine ) : na)
+
+if (period == "60")
+    d:=1
+    h:=72
+
+if (period == "120")
+    d:=2
+    h:=72
+    
+if (period == "240")
+    d:=4
+    h:=72
+
+if (period == "D")
+    d:=24
+    h:=72
+
+if (period == "2D")
+    d:=48
+    h:=72
+
+if (period == "3D")
+    d:=1
+    h:=1
+
+if (period == "4D")
+    d:=24*4
+    h:=72
+    
+if (period == "W")
+    d:=24*7
+    h:=72
+
+if (period == "2W")
+    d:=24*14
+    h:=72
+    
+p3 = plot(leadLine1_3D_2, offset = (displacement - 1)*h/d, color=color.green, title="Lead 1 3D")
+p4 = plot(leadLine2_3D_2, offset = (displacement - 1)*h/d, color=color.red,  title="Lead 2 3D")
+fill(p3, p4, color = leadLine1_3D_2 > leadLine2_3D_2 ? color.green : color.red)
+plot(conversionLine_3D, color=#0496ff, title="Conversion Line 3D")
+plot(baseLine_3D, color=#991515, title="Base Line 3D")
+
+condition_color_3D = (leadLine1_3D_tmp > leadLine2_3D_tmp ? color.green : color.red)
+clr1 = (Cross_3D ? (condition_color ? condition_color_3D : na):na)
+bgcolor(color=clr1, offset = (displacement - 1)*h/d, transp=0)
+
+//4D
+komu_input_4D = input(false, title="komu_4D")
+conversionLine_input_4D = input(false, title="conversionLine_4D")
+baseLine_input_4D = input(false, title="baseLine_4D")
+Cross_4D = input(true, title="Cross_4D")
+
+condition_color := (cross(security(syminfo.tickerid,"4D", leadLine1 ),security(syminfo.tickerid,"4D", leadLine2 )) ? 1 : 0)
+d:=1
+h:=1
+leadLine1_4D_2 = (komu_input_4D ? security(syminfo.tickerid,"4D", leadLine1 ) : na)
+leadLine2_4D_2 = (komu_input_4D ? security(syminfo.tickerid,"4D", leadLine2 ) : na)
+leadLine1_4D_tmp = security(syminfo.tickerid,"4D", leadLine1)
+leadLine2_4D_tmp = security(syminfo.tickerid,"4D", leadLine2)
+
+conversionLine_4D = (conversionLine_input_4D ? security(syminfo.tickerid,"4D", conversionLine ) : na)
+baseLine_4D = (baseLine_input_4D ? security(syminfo.tickerid,"4D", baseLine ) : na)
+
+if (period == "60")
+    d:=1
+    h:=24*4
+
+if (period == "120")
+    d:=2
+    h:=24*4
+    
+if (period == "240")
+    d:=4
+    h:=24*4
+
+if (period == "D")
+    d:=24
+    h:=24*4
+
+if (period == "2D")
+    d:=48
+    h:=24*4
+
+if (period == "3D")
+    d:=72
+    h:=24*4
+
+if (period == "4D")
+    d:=1
+    h:=1
+    
+if (period == "W")
+    d:=24*7
+    h:=24*4
+
+if (period == "2W")
+    d:=24*14
+    h:=24*4
+    
+p33 = plot(leadLine1_4D_2, offset = (displacement - 1)*h/d, color=color.green, title="Lead 1 4D")
+p44 = plot(leadLine2_4D_2, offset = (displacement - 1)*h/d, color=color.red,  title="Lead 2 4D")
+fill(p33, p44, color = leadLine1_4D_2 > leadLine2_4D_2 ? color.green : color.red)
+plot(conversionLine_4D, color=#0496ff, title="Conversion Line 4D")
+plot(baseLine_4D, color=#991515, title="Base Line 4D")
+
+condition_color_4D = (leadLine1_4D_tmp > leadLine2_4D_tmp ? color.green : color.red)
+clr11 = (Cross_4D ? (condition_color ? condition_color_4D : na):na)
+bgcolor(color=clr11, offset = (displacement - 1)*h/d, transp=0)
+
+
+//1W
+komu_input_W = input(false, title="komu_W")
+conversionLine_input_W = input(false, title="conversionLine_W")
+baseLine_input_W = input(false, title="baseLine_W")
+Cross_W = input(true, title="Cross_W")
+
+condition_color := (cross(security(syminfo.tickerid,"W", leadLine1 ),security(syminfo.tickerid,"W", leadLine2 )) ? 1 : 0)
+
+leadLine1_W_2 = (komu_input_W ? security(syminfo.tickerid,"W", leadLine1 ) : na)
+leadLine2_W_2 = (komu_input_W ? security(syminfo.tickerid,"W", leadLine2 ) : na)
+leadLine1_W_tmp = security(syminfo.tickerid,"W", leadLine1)
+leadLine2_W_tmp = security(syminfo.tickerid,"W", leadLine2)
+
+conversionLine_W = (conversionLine_input_W ? security(syminfo.tickerid,"W", conversionLine ) : na)
+baseLine_W = (baseLine_input_W ? security(syminfo.tickerid,"W", baseLine ) : na)
+
+if (period == "60")
+    d:=1
+    h:=168
+
+if (period == "120")
+    d:=2
+    h:=168
+
+if (period == "240")
+    d:=4
+    h:=168
+
+if (period == "D")
+    d:=24
+    h:=168
+
+if (period == "2D")
+    d:=48
+    h:=168
+
+if (period == "3D")
+    d:=72
+    h:=168
+
+if (period == "4D")
+    d:=24*4
+    h:=168
+
+if (period == "W")
+    d:=1
+    h:=1
+
+if (period == "2W")
+    d:=24*14
+    h:=168
+
+p5 = plot(leadLine1_W_2, offset = (displacement - 1)*h/d, color=color.green, title="Lead 1 w")
+p6 = plot(leadLine2_W_2, offset = (displacement - 1)*h/d, color=color.red,  title="Lead 2 w")
+fill(p5, p6, color = leadLine1_W_2 > leadLine2_W_2 ? color.green : color.red)
+plot(conversionLine_W, color=#0496ff, title="Conversion Line W")
+plot(baseLine_W, color=#991515, title="Base Line W")
+
+condition_color_W = (leadLine1_W_tmp > leadLine2_W_tmp ? color.green : color.red)
+clr2 = (Cross_W ? (condition_color ? condition_color_W : na):na)
+bgcolor(color=clr2, offset = (displacement - 1)*h/d, transp=0)
+
+//2W
+komu_input_2w = input(false, title="komu_2W")
+conversionLine_input_2W = input(false, title="conversionLine_2W")
+baseLine_input_2W = input(false, title="baseLine_2W")
+Cross_2W = input(true, title="Cross_2W")
+
+condition_color := (cross(security(syminfo.tickerid,"2W", leadLine1 ),security(syminfo.tickerid,"2W", leadLine2 )) ? 1 : 0)
+h := 1
+d := 1
+leadLine1_2w = (komu_input_2w ? security(syminfo.tickerid,"2W", leadLine1 ) : na)
+leadLine2_2w = (komu_input_2w ? security(syminfo.tickerid,"2W", leadLine2 ) : na)
+leadLine1_2W_tmp = security(syminfo.tickerid,"2W", leadLine1)
+leadLine2_2W_tmp = security(syminfo.tickerid,"2W", leadLine2)
+
+conversionLine_2W = (conversionLine_input_2W ? security(syminfo.tickerid,"2W", conversionLine ) : na)
+baseLine_2W = (baseLine_input_2W ? security(syminfo.tickerid,"2W", baseLine ) : na)
+
+if (period == "60")
+    d:=1
+    h:=336
+    
+if (period == "240")
+    d:=4
+    h:=336
+
+if (period == "D")
+    d:=24
+    h:=336
+
+if (period == "2D")
+    d:=48
+    h:=336
+    
+if (period == "3D")
+    d:=72
+    h:=336
+
+if (period == "4D")
+    d:=24*4
+    h:=336
+    
+if (period == "W")
+    d:=24*7
+    h:=336
+
+if (period == "2W")
+    d:=1
+    h:=1
+    
+p7 = plot(leadLine1_2w, offset = (displacement - 1)*h/d, color=color.green, title="Lead 1 2w")
+p8 = plot(leadLine2_2w, offset = (displacement - 1)*h/d, color=color.red,  title="Lead 2 2w")
+fill(p7, p8, color = leadLine1_2w > leadLine2_2w ? color.green : color.red)
+plot(conversionLine_2W, color=#0496ff, title="Conversion Line 2W")
+plot(baseLine_2W, color=#991515, title="Base Line 2W")
+
+condition_color_2W = (leadLine1_2W_tmp > leadLine2_2W_tmp ? color.green : color.red)
+clr3 = (Cross_2W ? (condition_color ? condition_color_2W : na):na)
+bgcolor(color=clr3, offset = (displacement - 1)*h/d, transp=0)
+
+//M
+komu_input_M = input(false, title="komu_M")
+conversionLine_input_M = input(false, title="conversionLine_M")
+baseLine_input_M = input(false, title="baseLine_M")
+Cross_M = input(true, title="Cross_M")
+
+condition_color := (cross(security(syminfo.tickerid,"M", leadLine1 ),security(syminfo.tickerid,"M", leadLine2 )) ? 1 : 0)
+leadLine1_M = (komu_input_M ? security(syminfo.tickerid,"M", leadLine1 ) : na)
+leadLine2_M = (komu_input_M ? security(syminfo.tickerid,"M", leadLine2 ) : na)
+leadLine1_M_tmp = security(syminfo.tickerid,"M", leadLine1)
+leadLine2_M_tmp = security(syminfo.tickerid,"M", leadLine2)
+
+conversionLine_M = (conversionLine_input_M ? security(syminfo.tickerid,"M", conversionLine ) : na)
+baseLine_M = (baseLine_input_M ? security(syminfo.tickerid,"M", baseLine ) : na)
+
+if (period == "60")
+    d:=1
+    h:=672
+    
+if (period == "240")
+    d:=4
+    h:=672
+
+if (period == "D")
+    d:=24
+    h:=672
+
+if (period == "2D")
+    d:=48
+    h:=672
+    
+if (period == "3D")
+    d:=72
+    h:=672
+
+if (period == "4D")
+    d:=24*4
+    h:=672
+    
+if (period == "W")
+    d:=24*7
+    h:=672
+
+if (period == "2W")
+    d:=24*14
+    h:=672
+    
+if (period == "M")
+    d:=1
+    h:=1
+    
+p9 = plot(leadLine1_M, offset = (displacement - 1)*h/d, color=color.green, title="Lead 1 M")
+p10 = plot(leadLine2_M, offset = (displacement - 1)*h/d, color=color.red,  title="Lead 2 M")
+fill(p9, p10, color = leadLine1_M > leadLine2_M ? color.green : color.red)
+plot(conversionLine_M, color=#0496ff, title="Conversion Line M")
+plot(baseLine_M, color=#991515, title="Base Line M")
+
+condition_color_M = (leadLine1_M_tmp > leadLine2_M_tmp ? color.green : color.red)
+clr4 = (Cross_M ? (condition_color ? condition_color_M : na):na)
+bgcolor(color=clr4, offset = (displacement - 1)*h/d, transp=0)
