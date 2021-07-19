@@ -1,8 +1,8 @@
 # Ichimoku Cloud
 
-Key points
+Overview
 
-Ichimoku is a tool that positioned on the chart provides information on the trend, support and resistance levels and volatility "at a glance"
+Ichimoku is a tool that positioned on the chart provides information on the trend, support and resistance levels and volatility "at a glance".
 
 This information is obtained through three components that make up the Ichimoku Cloud:
 1) historical component
