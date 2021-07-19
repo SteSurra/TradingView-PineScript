@@ -13,17 +13,17 @@ They are often a good indicator for trailing stops.
 - Use all three components together
 - Use the Ichimoku Cloud together with candlestick patterns
 
-<H3> Cloud </H3>
-
-![etv6ENPQ](https://user-images.githubusercontent.com/57445485/126187865-27c140b4-5515-4d46-85b9-ec0bbfa2a226.png)
-![jOw9Ki9r](https://user-images.githubusercontent.com/57445485/126187741-984d36ea-1239-4b47-8496-54ded1e696a5.png)
-![pWMH8yHN](https://user-images.githubusercontent.com/57445485/126188878-29142d21-b6bd-44a7-bda7-affe47fd5264.png)
-
+<H2> Cloud </H2>
 
 In this implementation, the cloud makes a 56-day (multiple) projection into the future:
 1. if the price action (the chart) is above the Cloud the trend is bullish
+![etv6ENPQ](https://user-images.githubusercontent.com/57445485/126187865-27c140b4-5515-4d46-85b9-ec0bbfa2a226.png)
+
 2. if the price action is below the cloud the trend is bearish
+![jOw9Ki9r](https://user-images.githubusercontent.com/57445485/126187741-984d36ea-1239-4b47-8496-54ded1e696a5.png)
+
 3. in the event that the price action and the cloud are one above the other we have latelarization.
+![pWMH8yHN](https://user-images.githubusercontent.com/57445485/126188878-29142d21-b6bd-44a7-bda7-affe47fd5264.png)
 
 The green line is the Senkou A, the red line is the Senkou B.
 The cloud area is green when the Senkou A is above the Senkou B, otherwise it is red.
