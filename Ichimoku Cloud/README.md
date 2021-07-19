@@ -1,7 +1,5 @@
 # <H1> Ichimoku Cloud </H1>
 
-<H2> Overview </H2>
-
 The Ichimoku Cloud is a tool that positioned on the chart provides information on the trend, support and resistance levels and volatility "at a glance".
 
 This information is obtained through three components that make up the Ichimoku Cloud:
@@ -10,7 +8,7 @@ This information is obtained through three components that make up the Ichimoku 
 3. <ins> future component </ins>: the "Senkou A" and "Senkou B" define the so-called cloud which provides an indication of the strength and weakness of the market.
 They are often a good indicator for trailing stops.
 
-<H3> Advice </H3>
+<ins> Advice </ins>
 
 - Use all three components together
 - Use the Ichimoku Cloud together with candlestick patterns
