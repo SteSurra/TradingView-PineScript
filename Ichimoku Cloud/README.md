@@ -75,6 +75,7 @@ Down | Flat | +
 
 ![bjW5t7ct](https://user-images.githubusercontent.com/57445485/126212836-abe2a427-792c-4e37-ad42-1eeb222c17e7.png)
 
+![O7Z6fJyI](https://user-images.githubusercontent.com/57445485/126213329-8e2e0eb7-0e48-4316-b349-9ea48a7e06c7.png)
 
 <H3> Bearish </H3>
 
