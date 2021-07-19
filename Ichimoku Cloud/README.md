@@ -5,17 +5,17 @@
 The ichimoku cloud is a tool that positioned on the chart provides information on the trend, support and resistance levels and volatility "at a glance".
 
 This information is obtained through three components that make up the Ichimoku Cloud:
-1) historical component
+1) <ins> historical component </ins>: It compares the current price action with the historical price: the historical component is defined with the name of "Chikou Span" which defines the so-called momentum of the price action, ie the trend. through this component it is possible to identify support and resistance levels
 2) current component
 3) future component
 
-<ins> Historical component </ins> \\
-It compares the current price action with the historical price: the historical component is defined with the name of "Chikou Span" which defines the so-called momentum of the price action, ie the trend. through this component it is possible to identify support and resistance levels
+<ins> Historical component </ins> 
 
-<ins> Current component </ins> \\
+
+<ins> Current component </ins> 
 It shows the current trend ie what is happening right now. Here we identify the so-called "Tenken sen" and "kijun sen" which are actually variations of simple moving averages.
 
-<ins> Future component </ins> \\
+<ins> Future component </ins> 
 The "Senkou A" and "Senkou B" define the so-called cloud which provides an indication of the strength and weakness of the market.
 They are often a good indicator for trailing stops.
 
