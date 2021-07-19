@@ -15,6 +15,20 @@ They are often a good indicator for trailing stops.
 - Use all three components together
 - Use the Ichimoku Cloud together with candlestick patterns
 
+<H3> Cloud </H3>
+
+![etv6ENPQ](https://user-images.githubusercontent.com/57445485/126187865-27c140b4-5515-4d46-85b9-ec0bbfa2a226.png)
+![jOw9Ki9r](https://user-images.githubusercontent.com/57445485/126187741-984d36ea-1239-4b47-8496-54ded1e696a5.png)
+![etv6ENPQ](https://user-images.githubusercontent.com/57445485/126188802-2bd95cc3-2a1f-4926-a962-4c4bc90111cc.png)
+
+In this implementation, the cloud makes a 56-day (multiple) projection into the future:
+1. if the price action (the chart) is above the Cloud the trend is bullish
+2. if the price action is below the cloud the trend is bearish
+3. in the event that the price action and the cloud are one above the other we have latelarization.
+
+The green line is the Senkou A, the red line is the Senkou B.
+The cloud area is green when the Senkou A is above the Senkou B, otherwise it is red.
+
 ![R0GM1Nqp](https://user-images.githubusercontent.com/57445485/125323748-6f9df600-e33f-11eb-8cc1-def4d79fc51a.png)
 
 The Ichimoku Cloud indicator has been modified compared to the basic version in order to display Ichimoku Cloud related to different time frames on the same timeframe. This makes it easier to identify resistance and intersection points.
