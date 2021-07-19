@@ -29,8 +29,8 @@ In this implementation the cloud makes a 56-day (multiple) projection into the f
 
 ![pWMH8yHN](https://user-images.githubusercontent.com/57445485/126188878-29142d21-b6bd-44a7-bda7-affe47fd5264.png)
 
-The green line is the Senkou A, the red line is the Senkou B.
-The cloud area is green when the Senkou A is above the Senkou B, otherwise it is red.
+The cloud area is green when the Senkou A (green line) is above the Senkou B (red line), otherwise it is red.
+
 
 The Ichimoku Cloud indicator has been modified compared to the basic version in order to display Ichimoku Cloud related to different time frames on the same timeframe. This makes it easier to identify resistance and intersection points.
 
