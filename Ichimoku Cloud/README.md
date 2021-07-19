@@ -63,5 +63,14 @@ Usually the thinner they are, the more likely it is to change direction (thin).
 
 ![afxb81Ff](https://user-images.githubusercontent.com/57445485/126195653-a9ec44e4-795a-4133-bafa-d361defc0102.png)
 
+Bullish
+
+Senkou A | Senkou B
+------------ | -------------
+High | High | +++
+High | Flat | ++
+Down | Flat | +
+
+
 
 
