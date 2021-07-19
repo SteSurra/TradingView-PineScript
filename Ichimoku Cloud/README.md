@@ -53,4 +53,15 @@ By checking the "Cross_X" option, it is also possible to display on the graph on
 
 ![QUyQt2bj](https://user-images.githubusercontent.com/57445485/125323473-1afa7b00-e33f-11eb-898d-de66acb97b35.png)
 
+<H3> Cloud width </H3>
+
+When the clouds are very large, a price reversal is unlikely (thick).
+
+![mtnLFZ5T](https://user-images.githubusercontent.com/57445485/126195632-fb9870be-122d-466d-a636-7dc88433f895.png)
+
+Usually the thinner they are, the more likely it is to change direction (thin).
+
+![afxb81Ff](https://user-images.githubusercontent.com/57445485/126195653-a9ec44e4-795a-4133-bafa-d361defc0102.png)
+
+
 
