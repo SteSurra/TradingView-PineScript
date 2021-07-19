@@ -71,7 +71,7 @@ High | High | +++
 High | Flat | ++
 Down | Flat | +
 
-1. ![jfSRRZT0](https://user-images.githubusercontent.com/57445485/126212307-cd6bdc7a-b41e-4bf8-953c-f08581aa5add.png)
+![jfSRRZT0](https://user-images.githubusercontent.com/57445485/126212307-cd6bdc7a-b41e-4bf8-953c-f08581aa5add.png)
 
 <H3> Bearish </H3>
 
