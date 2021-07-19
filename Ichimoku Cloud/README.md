@@ -85,7 +85,7 @@ Up | Flat | +
 
 ![vs46rj5x](https://user-images.githubusercontent.com/57445485/126214272-7caeaae4-a016-48cf-b795-ad64a0f10981.png)
 
-<H3> Updates <H3>
+<H3> Updates </H3>
 
 The Ichimoku Cloud tool has been modified compared to the basic version in order to display Ichimoku Cloud related to different time frames on the same timeframe. This makes it easier to identify resistance and intersection points.
 
