@@ -73,6 +73,9 @@ Down | Flat | +
 
 ![jfSRRZT0](https://user-images.githubusercontent.com/57445485/126212307-cd6bdc7a-b41e-4bf8-953c-f08581aa5add.png)
 
+![bjW5t7ct](https://user-images.githubusercontent.com/57445485/126212836-abe2a427-792c-4e37-ad42-1eeb222c17e7.png)
+
+
 <H3> Bearish </H3>
 
 Senkou A | Senkou B
