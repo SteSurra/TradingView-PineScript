@@ -1,5 +1,9 @@
 # PineScript
 
+The goal of this repository is to collect technical indicators and tools implemented using the Pine Script language.
+In some cases the basic implementations were used as a starting point, but modified and adapted to the particular operational context.
+Next to each indicator it is possible to read a brief description of the indicator itself and the motivation that led to the implementation choice.
+
 # Bull run
 
 ![oE11gc2I](https://user-images.githubusercontent.com/57445485/124765222-0c265980-df36-11eb-830a-dd89c588d6a4.png)
