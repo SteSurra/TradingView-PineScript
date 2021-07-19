@@ -1,6 +1,6 @@
 # Ichimoku Cloud
 
-<ind>Overview</ins>
+<ins> Overview </ins>
 
 Ichimoku is a tool that positioned on the chart provides information on the trend, support and resistance levels and volatility "at a glance".
 
