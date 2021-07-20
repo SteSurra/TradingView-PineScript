@@ -85,6 +85,24 @@ Up | Flat | +
 
 ![vs46rj5x](https://user-images.githubusercontent.com/57445485/126214272-7caeaae4-a016-48cf-b795-ad64a0f10981.png)
 
+<H3> Historical Component </H3>
+
+The Chikou is the line that makes a projection of the current price 56 days back.
+This component is particularly useful for identifying moments of market consolidation.
+In particular:
+
+1. We are in a phase of consolidation if the Chikou is inside the candles. This means that we are in a trendless phase.
+
+![uCTgxr99](https://user-images.githubusercontent.com/57445485/126326466-4e4d87b8-959c-40c2-bd7f-a95d5929e4a9.png)
+
+2. We are bullish when Chikou is above the price action.
+
+![MDYl9rXS](https://user-images.githubusercontent.com/57445485/126326484-d9ecd962-7d5f-4814-9029-cde3a8193591.png)
+
+3. We are instead in a bearish phase when the Chikou is below the price action
+
+![6hkbLcKI](https://user-images.githubusercontent.com/57445485/126326500-340b3ceb-f354-4ffb-a2e3-70beb3edf0a2.png)
+
 <H3> Updates </H3>
 
 The Ichimoku Cloud tool has been modified compared to the basic version in order to display Ichimoku Cloud related to different time frames on the same timeframe. This makes it easier to identify resistance and intersection points.
