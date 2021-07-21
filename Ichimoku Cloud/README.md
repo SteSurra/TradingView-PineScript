@@ -29,10 +29,14 @@ The Kijun sen (also called Baseline) is set to 56 periods and obtained similarly
 
 It provides information about the future, but not about where the price will go, but from the standpoint of supports and resistances and potential bullish or berish signals.
 
-Senoku A is the average between tenkan sen and kipun sen projected 56 days forward: (Tenkan sen + Kijun sen) / 2
-
-Senkou B is projected 56 days forward and is obtained by the following formula: (112 day high + 112 day low) / 2
-
+Senoku A is the average between tenkan sen and kipun sen projected 56 days forward: 
+```
+(Tenkan sen + Kijun sen) / 2
+```
+Senkou B is projected 56 days forward and is obtained by the following formula:
+```
+(112 day high + 112 day low) / 2
+```
 In this implementation the cloud makes a 56-day (multiple) projection into the future:
 
 1. if the price action is above the Cloud the trend is bullish
