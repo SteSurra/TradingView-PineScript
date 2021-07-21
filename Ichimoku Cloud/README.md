@@ -26,6 +26,12 @@ The Kijun sen (also called Baseline) is set to 56 periods and obtained similarly
 
 <H2> Cloud </H2>
 
+It provides information about the future, but not about where the price will go, but from the standpoint of supports and resistances and potential bullish or berish signals.
+
+Senoku A is the average between tenkan sen and kipun sen projected 56 days forward: (Tenkan sen + Kijun sen) / 2
+
+Senkou B is projected 56 days forward and is obtained by the following formula: (112 day high + 112 day low) / 2
+
 In this implementation the cloud makes a 56-day (multiple) projection into the future:
 
 1. if the price action is above the Cloud the trend is bullish
@@ -98,7 +104,10 @@ Up | Flat | +
 
 <H3> Historical Component </H3>
 
-The Chikou is the line that makes a projection of the current price 56 days back.
+The Chikou is the closing price of the candle projected 56 days back.
+
+The Chikou is the line that makes a projection of the closing price of the candle 56 days back.
+
 This component is particularly useful for identifying moments of market consolidation.
 In particular:
 
