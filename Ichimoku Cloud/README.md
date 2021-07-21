@@ -20,8 +20,9 @@ The "tankan sen" and "kipun sen" show the average of how the price is moving rig
 The tankan sen is set at 21 periods and its value is obtained by adding the value of the highest candle at 21 periods with the value of the lowest candle at 21 periods, all divided by 2:
 
 Assuming the period is one day, then:
+```
 (21 day high + 21 day low) / 2
-
+```
 The Kijun sen (also called Baseline) is set to 56 periods and obtained similarly to the previous calculation.
 
 <H2> Cloud </H2>
