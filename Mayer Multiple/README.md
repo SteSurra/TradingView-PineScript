@@ -4,7 +4,9 @@
 
 The Mayer Multiple is used in investments to determine whether an asset is overbought (red), fairly priced (yellow) or undervalued (green). The indicator is calculated by taking the price of the asset and dividing it by the value of the 200-day moving average.
 
-Example if the price of Bitcoin is $ 10,890 and the 200-day moving average is at $ 9,287, then 10,890 / 9,287 = 1.1726
+Example if the price of Bitcoin is $ 10,890 and the 200-day moving average is at $ 9,287, then:
+
+10,890 / 9,287 = 1.1726
 
 The idea, therefore, is to accumulate during the over-sold phases and to sell during the over-bought phases with the aim of avoiding accumulating during the upward excess phase.
 
