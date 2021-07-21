@@ -14,7 +14,10 @@ In classic markets, the death cross is considered by the institutions as a very 
 
 In classic markets, weekends (Saturdays and Sundays) are not bargaining times. It follows that the classic month from the point of view of the hold markets is about 20 days, while a year is about 200 days.
 
-The 50-period average was chosen because it represents 75% of three months in the traditional market: 0.75 (22 * 3) = 49.5-> 50.
+The 50-period average was chosen because it represents 75% of three months in the traditional market: 
+```
+0.75 (22 * 3) = 49.5-> 50.
+```
 22 is the typical month of traditional markets which does not consider Saturday and Sunday, while 3 is the quarter, ie 3 months. The 200-period average is 75% of a year.
 
 <ins>Cryptocurrencies</ins>
