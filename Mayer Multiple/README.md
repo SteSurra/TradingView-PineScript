@@ -10,7 +10,7 @@ Example if the price of Bitcoin is $ 10,890 and the 200-day moving average is at
 ```
 The idea, therefore, is to accumulate during the over-sold phases and to sell during the over-bought phases with the aim of avoiding accumulating during the upward excess phase.
 
-<ins>Defects</ins>
+<H4>Defects</H4>
 
 The Mayer multiple does not take into account the timing in the short term because it basically measures the distance between the price of the asset and the moving average. It follows that the indicator provides "buy" signals during a market decline.
 With a view to an accumulation plan to counter this problem, it could be possible to enter the market with non-equidimensional positions: it would be convenient for the first positions to have a smaller size than the following ones.
