@@ -8,7 +8,7 @@ This information is obtained through three components that make up the Ichimoku 
 3. <ins> future component </ins>: Senkou A and Senkou B define the so-called cloud which provides an indication of the strength and weakness of the market.
 They are often a good indicator for trailing stops.
 
-<ins> Advice </ins>
+<H5> Advice </H5>
 
 - Use all three components together
 - Use the Ichimoku Cloud together with candlestick patterns
