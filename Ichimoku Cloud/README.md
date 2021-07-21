@@ -104,8 +104,6 @@ Up | Flat | +
 
 <H3> Historical Component </H3>
 
-The Chikou is the closing price of the candle projected 56 days back.
-
 The Chikou is the line that makes a projection of the closing price of the candle 56 days back.
 
 This component is particularly useful for identifying moments of market consolidation.
