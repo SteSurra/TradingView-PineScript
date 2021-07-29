@@ -1,6 +1,6 @@
 //"open[1] < close[1]": if the previous candle has a green body
 //"open > close[1]": if the opening price of the current candle is higher than the closing price of the previous candle
-//"high - max(open, close) >= abs(open - close) * 3": if the maximum of the current candle minus the maximum between the closing or opening price of the current candle is greater than or equal to the price in absolute value obtained from the difference between the opening and closing price
+//"high - max(open, close) >= abs(open - close) * 3": if the maximum of the current candle minus the maximum between the closing or opening price of the current candle is greater than or equal to three times the price in absolute value of the difference between the opening and closing price
 //It follows that it is a Shooting Star
 
 study(title = "Shooting Star", overlay = true)
