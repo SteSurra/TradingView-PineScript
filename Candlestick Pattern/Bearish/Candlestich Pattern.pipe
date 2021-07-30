@@ -1,0 +1,14 @@
+study(title = "Candlestick Pattern", overlay = true)
+
+//Engulfing
+Engulfing = input(false, title="Engulfing")
+bgcolor(Engulfing ? open > close[1] ? close < open[1] ? open[1] < close[1] ? red :na :na: na :na, transp=80)
+
+//Shooting Star
+ShootingStar = input(false, title="Shooting Star")
+bgcolor(ShootingStar ? open[1] < close[1] ? open > close[1] ? high - max(open, close) >= abs(open - close) * 3 ? min(close, open) - low <= abs(open - close) ? red :na :na :na :na :na, transp=80)
+
+//Three black Crows
+//"low + (high - low)/4 > close" the lower shadow is not extensive
+ThreeBlackCrows = input(true, title="Three Black Crows")
+bgcolor(ThreeBlackCrows ? open > close[1] ? open[1] > close[2] ? low < low[1] ? low[1] < low[2] ? close < close[1] ? close[1] < close [2] ? open > close ? open[1] > close[1] ? open[2] > close[2] ? low + (high - low)/4 > close ? low[1] + (high[1] - low[1])/4 > close[1] ? low[2] + (high[2] - low[2])/4 > close[2] ? red :na :na :na :na :na :na :na :na: na: na: na: na: na, transp=80)
