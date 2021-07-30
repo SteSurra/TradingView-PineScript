@@ -12,4 +12,7 @@
 ## Configuration
 - The body of the second candle, excluding the shadows, fully includes the body of the first
 
+![dVTEFOJh](https://user-images.githubusercontent.com/57445485/127620383-91fba7a1-9623-44ae-b0e1-53d82501a700.png)
+
+
 
