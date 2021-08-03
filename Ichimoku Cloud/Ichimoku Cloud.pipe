@@ -8,14 +8,6 @@ d=1
 h=1
 condition_color=0
 
-//examples
-//10 30 60 30
-//20 60 120 60
-//21 56 112 1
-//42 112 224 112
-//256 672 1344 672
-//504 1344 2688 1344
-
 conversionPeriods = input(21, minval=1, title="Conversion Line Periods"),
 basePeriods = input(56, minval=1, title="Base Line Periods")
 laggingSpan2Periods = input(112, minval=1, title="Lagging Span 2 Periods"),
@@ -26,7 +18,6 @@ conversionLine = donchian(conversionPeriods)
 baseLine = donchian(basePeriods)
 leadLine1 = avg(conversionLine, baseLine)
 leadLine2 = donchian(laggingSpan2Periods)
-
 
 //D
 komu_input_D = input(true, title="komu_D")
