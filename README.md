@@ -14,11 +14,7 @@ Litecoin:
 ```
 ltc1qx4kn9tasd83jlauqvlk6cn2qglr7y948zu8qqh
 ```
-Tezos
-```
-tz1d6VLLXEEpkbFc17YQbVvKDX9qj9qLSKpU
-```
-Tezos:
+Ethereum:
 ```
 0x8440dA249c3A4ea6a5d7c6aa89691780547e2D92
 ```
