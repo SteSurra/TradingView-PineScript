@@ -10,12 +10,13 @@ Bitcoin:
 ```
 bc1q9u3jul3eenqqgx20762fs6wzmf9dqd5auc976m
 ```
-Litecoin:
-```
-ltc1qx4kn9tasd83jlauqvlk6cn2qglr7y948zu8qqh
-```
 Ethereum:
 ```
 0x8440dA249c3A4ea6a5d7c6aa89691780547e2D92
 ```
+Litecoin:
+```
+ltc1qx4kn9tasd83jlauqvlk6cn2qglr7y948zu8qqh
+```
+
 
