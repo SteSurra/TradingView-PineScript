@@ -1,4 +1,4 @@
-# README
+# PineScript
 
 The goal of this repository is to collect technical indicators and tools implemented using the Pine Script language.
 In some cases the basic implementations were used as a starting point, but modified and adapted to the particular operational context.
