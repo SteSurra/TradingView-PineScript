@@ -15,3 +15,5 @@ The idea, therefore, is to accumulate during the over-sold phases and to sell du
 The Mayer multiple does not take into account the timing in the short term because it basically measures the distance between the price of the asset and the moving average. It follows that the indicator provides "buy" signals during a market decline.
 With a view to an accumulation plan to counter this problem, it could be possible to enter the market with non-equidimensional positions: it would be convenient for the first positions to have a smaller size than the following ones.
 Considering that the crypto currency market is open 24 hours a day, it would make sense to consider an average at 274 periods instead of one at 200 periods (see paragraph “DeathCross”).
+
+**If you appreciate my work, you can give me a tip or a star! Thank you very much!**
