@@ -26,4 +26,4 @@ The 50-period average was chosen because it represents 75% of three months in th
 
 According to what was said before, for Bitcoin and other cryptocurrencies it would be wrong to consider the average at 50 and 200 periods. In fact, longer averages would be needed since the crypto currency market is open 24 hours a day. Always considering 75% of a quarter and 75% of a year, we get: MA1: 68 days, MA2: 274 days.
 
-**If you appreciate my work, you can give me a tip or a star! Thank you very much!**
+**If you appreciate my work, you can give me a tip via the Sponsor button or a Star! Thank you very much!**
