@@ -132,7 +132,7 @@ The Ichimoku Cloud tool has been modified compared to the basic version in order
 
 ![R0GM1Nqp](https://user-images.githubusercontent.com/57445485/125323748-6f9df600-e33f-11eb-8cc1-def4d79fc51a.png)
 
-**If you appreciate my work, you can give me a tip via the Sponsor button or a Star! Thank you very much!**
+
 
 
 
