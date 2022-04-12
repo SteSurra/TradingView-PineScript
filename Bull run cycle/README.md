@@ -12,4 +12,3 @@ It makes no sense to use these averages in other timeframes.
 
 If the fast 26-period average crosses the slow 52-period average upwards, this could mark the start of the bull run; vice versa the bullrun could be terminated.
 
-**If you appreciate my work, you can give me a tip via the Sponsor button or a Star! Thank you very much!**
