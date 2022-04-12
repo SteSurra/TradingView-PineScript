@@ -16,4 +16,3 @@ The Mayer multiple does not take into account the timing in the short term becau
 With a view to an accumulation plan to counter this problem, it could be possible to enter the market with non-equidimensional positions: it would be convenient for the first positions to have a smaller size than the following ones.
 Considering that the crypto currency market is open 24 hours a day, it would make sense to consider an average at 274 periods instead of one at 200 periods (see paragraph “DeathCross”).
 
-**If you appreciate my work, you can give me a tip via the Sponsor button or a Star! Thank you very much!**
